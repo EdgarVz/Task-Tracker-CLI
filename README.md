@@ -29,7 +29,7 @@ Author: EdgarVz
 |mark-in-progress <id>|Mark as in-progress 🟡 / Marcar en progreso|
 |mark-done <id>|Mark as done 🟢 / Marcar completada|
 
-Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done
+|Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done|
 
 ## 💡 Examples / Ejemplos
 
