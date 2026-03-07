@@ -1,4 +1,4 @@
-📋 Task Tracker CLI / CLI de Seguimiento de Tareas
+# 📋 Task Tracker CLI / CLI de Seguimiento de Tareas
 https://roadmap.sh/projects/task-tracker
 
 A simple command-line task tracker built with Node.js. No dependencies, just pure Node.js.
@@ -7,7 +7,7 @@ Un simple rastreador de tareas para línea de comandos construido con Node.js. S
 
 Author: EdgarVz
 
-📦 Installation / Instalación
+## 📦 Installation / Instalación
 
     # Clone / Clonar
     git clone https://github.com/EdgarVz/task-tracker
@@ -19,7 +19,19 @@ Author: EdgarVz
     # Now use from anywhere / Ahora úsalo desde cualquier lugar
     task-manager <command>
 
-📋 Commands / Comandos
+## 📋 Commands / Comandos
+
+|Command Arguments|Description/Descripción|
+|:-|:-|
+|add "<title>"|Add new task / Agregar Tarea|
+|list [status]|List tasks (todo/in-progress/done) / Listar tareas|
+|update <id> [title] [status]|Update Task / actualizar tareas|
+|mark-in-progress <id>|Mark as in-progress 🟡 / Marcar en progreso|
+|mark-done <id>|Mark as done 🟢 / Marcar completada|
+|Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done|
+
+
+
 
     Command	Arguments	Description / Descripción
     add	"<title>"	Add new task / Agregar tarea
