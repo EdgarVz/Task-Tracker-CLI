@@ -28,8 +28,8 @@ Author: EdgarVz
 |update <id> [title] [status]|Update Task / actualizar tareas|
 |mark-in-progress <id>|Mark as in-progress 🟡 / Marcar en progreso|
 |mark-done <id>|Mark as done 🟢 / Marcar completada|
-|:-|
-|Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done|
+
+Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done
 
 ## 💡 Examples / Ejemplos
 
