@@ -28,21 +28,10 @@ Author: EdgarVz
 |update <id> [title] [status]|Update Task / actualizar tareas|
 |mark-in-progress <id>|Mark as in-progress 🟡 / Marcar en progreso|
 |mark-done <id>|Mark as done 🟢 / Marcar completada|
+|:-|
 |Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done|
 
-
-
-
-    Command	Arguments	Description / Descripción
-    add	"<title>"	Add new task / Agregar tarea
-    list	[status]	List tasks (todo/in-progress/done) / Listar tareas
-    update	<id> [title] [status]	Update task / Actualizar tarea
-    delete	<id>	Delete task / Eliminar tarea
-    mark-in-progress	<id>	Mark as in-progress 🟡 / Marcar en progreso
-    mark-done	<id>	Mark as done 🟢 / Marcar completada
-    Status icons / Iconos de estado: 🔴 todo | 🟡 in-progress | 🟢 done
-
-💡 Examples / Ejemplos
+## 💡 Examples / Ejemplos
 
     # Add task / Agregar tarea
     task-manager add "Buy milk"
@@ -63,7 +52,7 @@ Author: EdgarVz
     task-manager delete 1
 
 
-💾 Data Storage / Almacenamiento
+## 💾 Data Storage / Almacenamiento
 
     Auto-generated tasks.json in current directory:
     json
@@ -77,7 +66,7 @@ Author: EdgarVz
 
     ✅ Creates backups before fixing / Crea backups antes de reparar
 
-🔧 Tech Stack / Tecnologías
+## 🔧 Tech Stack / Tecnologías
 
     Node.js (native modules only / solo módulos nativos)
 
@@ -85,12 +74,12 @@ Author: EdgarVz
 
     File system: fs.promises
 
-🛡️ Error Handling / Manejo de Errores
+## 🛡️ Error Handling / Manejo de Errores
 
     Handles: missing args, invalid IDs, wrong status, corrupted JSON, permission issues.
 
     Maneja: argumentos faltantes, IDs inválidos, estado incorrecto, JSON corrupto, problemas de permisos.
 
-📄 License / Licencia
+## 📄 License / Licencia
 
     MIT © EdgarVz
