@@ -30,6 +30,7 @@ Author: EdgarVz
 |mark-done <id>|Mark as done 🟢 / Marcar completada|
 
 |Status icons / Iconos de estado: 🔴 todo / 🟡 in-progress / 🟢 done|
+|:-|
 
 ## 💡 Examples / Ejemplos
 
